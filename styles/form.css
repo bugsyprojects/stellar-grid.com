@@ -1,0 +1,60 @@
+.contact-form {
+    background: #000000;
+    padding: 40px 20px;
+    color: #fff;
+  }
+  
+  .contact-form__content {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    color: #ff4d4d;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #fff;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    background: #2e2e2e;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  button.submit-btn {
+    background: linear-gradient(90deg, #8b0000, #ff0000);
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button.submit-btn:hover {
+    background: linear-gradient(90deg, #ff0000, #8b0000);
+  }
+  
+  #success-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: green;
+    margin-top: 20px;
+  }
+  

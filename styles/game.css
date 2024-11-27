@@ -1,0 +1,49 @@
+.kingdom-game-section {
+  padding: 180px 20px;
+  color: #fff;
+  text-align: center;
+  background-color: black;
+}
+
+.kingdom-game-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kingdom-game-content {
+  background: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон для выделения */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.kingdom-game-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffd700; /* Золотой акцент */
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
+
+.kingdom-game-frame {
+  margin-bottom: 30px;
+}
+
+.kingdom-game-frame iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.kingdom-game-description p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.kingdom-game-description strong {
+  color: #ffd700; /* Подчёркиваем важные элементы */
+}

@@ -1,0 +1,84 @@
+.kingdom-hero {
+  padding-top: 120px;
+  background: url('/assets/images/hero-bg.webp') no-repeat center center / cover;
+  color: #fff;
+  position: relative;
+  overflow: hidden; /* Для скрытия выходящих элементов */
+}
+
+.kingdom-hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* Чтобы корректно отображалось на мобильных */
+}
+
+.kingdom-hero__content {
+  flex: 1 1 50%; /* Левая часть занимает половину ширины */
+  max-width: 600px;
+}
+
+.kingdom-hero__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffd700; /* Золотой акцент */
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.kingdom-hero__subtitle {
+  font-size: 20px;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.kingdom-hero__button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #8b0000; /* Бордовый цвет */
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.kingdom-hero__button:hover {
+  background-color: #b22222;
+  transform: translateY(-3px);
+}
+
+.kingdom-hero__note {
+  font-size: 14px;
+  color: #ddd;
+  margin-top: 15px;
+}
+
+.kingdom-hero__visual {
+  flex: 1 1 50%; /* Правая часть занимает половину ширины */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.kingdom-hero__visual img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+}
+
+
+
+@media (min-width: 1440px) {
+  .kingdom-hero__visual {
+    position: relative;
+    top: 60px;
+    z-index: 100;
+  }
+}

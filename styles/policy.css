@@ -1,0 +1,60 @@
+.kingdom-policy-section {
+  padding: 180px 20px;
+  color: #fff;
+  position: relative;
+  text-align: left;
+  background-color: black;
+}
+
+.kingdom-policy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.kingdom-policy-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.kingdom-policy-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffd700;
+  margin-bottom: 15px;
+}
+
+.kingdom-policy-header {
+  font-size: 20px;
+  color: #f0f0f0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.kingdom-policy-list {
+  list-style: disc;
+  margin-left: 20px;
+  color: #e0e0e0;
+}
+
+.kingdom-policy-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.kingdom-policy-content a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.kingdom-policy-content a:hover {
+  text-decoration: underline;
+}

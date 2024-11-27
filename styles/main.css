@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&display=swap");
+
+/* Скидання базових стилів */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Контейнер */
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-family: "Jaro", sans-serif;
+}
+
+/* Абзаци */
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  
+}
+
+/* Список без стилів */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.logo-text {
+  text-decoration: none;
+}

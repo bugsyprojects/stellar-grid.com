@@ -1,0 +1,47 @@
+/* Cookie Banner Styles */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 15px 20px;
+    display: flex; /* Ensure it's displayed */
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    font-size: 14px;
+  }
+  
+  .cookie-banner__link {
+    color: #06d125;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .cookie-banner__link:hover {
+    color: #04a6fd; /* Light blue on hover */
+  }
+  
+  .cookie-banner__button {
+    background-color: #06d125;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cookie-banner__button:hover {
+    background-color: #04a6fd; /* Light blue on hover */
+  }
+  
+  /* Hide the banner */
+  .cookie-banner--hidden {
+    display: none;
+  }
+  
